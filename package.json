@@ -1,1 +1,1 @@
-{"name":"hosting-website","scripts":{"start":"npx serve -s . --listen 8080"}}
+{"name":"hosting-website","scripts":{"start":"npx serve -l 8080"}}
