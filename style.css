@@ -1,6 +1,4 @@
-/* ============================================================
-   BASE
-   ============================================================ */
+
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
@@ -26,16 +24,13 @@ body {
 
 a { text-decoration: none; color: inherit; }
 
-/* Wrapper */
 .wrap {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 40px;
 }
 
-/* ============================================================
-   BUTTONS
-   ============================================================ */
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -60,9 +55,7 @@ a { text-decoration: none; color: inherit; }
 .btn-border-dark:hover { border-color: var(--dark); }
 .btn-sm { padding: 9px 20px; font-size: 13px; }
 
-/* ============================================================
-   NAVBAR
-   ============================================================ */
+
 .navbar {
   background: var(--dark);
   position: sticky;
@@ -99,9 +92,7 @@ a { text-decoration: none; color: inherit; }
 }
 .nav-links a:hover { color: var(--white); }
 
-/* ============================================================
-   HERO
-   ============================================================ */
+
 .hero {
   background: var(--dark);
   padding: 90px 0 70px;
@@ -179,9 +170,7 @@ a { text-decoration: none; color: inherit; }
   transform: perspective(600px) rotateY(-12deg) rotateX(4deg);
 }
 
-/* ============================================================
-   FEATURES
-   ============================================================ */
+
 .features {
   background: var(--white);
   padding: 90px 0 80px;
@@ -232,9 +221,7 @@ a { text-decoration: none; color: inherit; }
 }
 .feat-card p { font-size: 14px; color: var(--muted); line-height: 1.7; }
 
-/* ============================================================
-   RELIABLE
-   ============================================================ */
+
 .reliable {
   background: var(--white);
   border-top: 1px solid #f0f0f0;
@@ -254,9 +241,7 @@ a { text-decoration: none; color: inherit; }
 }
 .rel-r p { font-size: 15px; color: var(--muted); line-height: 1.8; }
 
-/* ============================================================
-   DASHBOARD
-   ============================================================ */
+
 .dash-section { padding: 0 0 90px; background: var(--white); }
 .dash-box {
   display: flex;
@@ -397,9 +382,7 @@ a { text-decoration: none; color: inherit; }
 }
 .d-label2 { font-size: 15px; font-weight: 700; margin-bottom: 14px; }
 
-/* ============================================================
-   SAVE TIME
-   ============================================================ */
+
 .save-time { background: var(--dark); padding: 90px 0; }
 .save-inner {
   display: grid;
@@ -448,9 +431,7 @@ a { text-decoration: none; color: inherit; }
   margin-bottom: 30px;
 }
 
-/* ============================================================
-   INNOVATIVE
-   ============================================================ */
+
 .innovative {
   background: var(--dark);
   border-top: 1px solid var(--bdark);
@@ -515,9 +496,6 @@ a { text-decoration: none; color: inherit; }
   bottom: 30px; right: 0;
 }
 
-/* ============================================================
-   BLOCK STORAGE
-   ============================================================ */
 .blk-stor {
   background: var(--dark);
   border-top: 1px solid var(--bdark);
@@ -548,9 +526,7 @@ a { text-decoration: none; color: inherit; }
 .cu4 { width: 60px; height: 60px; background: linear-gradient(145deg,#e5e7eb,#d1d5db); bottom: 20px; right: 5px; transform: perspective(300px) rotateX(20deg) rotateY(-20deg); }
 .cu5 { width: 55px; height: 55px; background: linear-gradient(145deg,#374151,#1f2937); top: 110px; right: 150px; transform: perspective(300px) rotateX(20deg) rotateY(-20deg); }
 
-/* ============================================================
-   PRICING
-   ============================================================ */
+
 .pricing { background: var(--white); padding: 100px 0 90px; }
 .price-toggle {
   display: flex;
@@ -658,9 +634,7 @@ a { text-decoration: none; color: inherit; }
 }
 .pcard-dark .p-nc { color: rgba(255,255,255,.35); }
 
-/* ============================================================
-   TESTIMONIALS
-   ============================================================ */
+
 .testi { background: var(--dark); padding: 100px 0 70px; text-align: center; }
 .testi h2 {
   font-size: 40px;
@@ -708,9 +682,7 @@ a { text-decoration: none; color: inherit; }
 }
 .td-on { background: var(--green); width: 24px; border-radius: 4px; }
 
-/* ============================================================
-   CTA BANNER
-   ============================================================ */
+
 .cta-bar { background: var(--green); padding: 56px 0; }
 .cta-inner {
   display: flex;
@@ -719,9 +691,7 @@ a { text-decoration: none; color: inherit; }
 }
 .cta-inner h2 { font-size: 34px; font-weight: 800; color: var(--dark); line-height: 1.25; }
 
-/* ============================================================
-   FOOTER
-   ============================================================ */
+
 .footer {
   background: var(--dark);
   border-top: 1px solid var(--bdark);
@@ -750,9 +720,7 @@ a { text-decoration: none; color: inherit; }
 }
 .foot-soc a:hover { color: var(--white); border-color: rgba(255,255,255,.3); }
 
-/* ============================================================
-   RESPONSIVE
-   ============================================================ */
+
 @media (max-width: 900px) {
   .hero-inner,
   .reliable-inner,
